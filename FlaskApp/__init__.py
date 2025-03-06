@@ -14,7 +14,7 @@ def index():
 
 @app.route("/hello/<name>", methods=['GET'])
 def hello(name: str):
-    return f"hello {name}. This is edited"
+    return f"hello {name}. This is edited. This is a test."
 
 @app.route("/module")
 def module():
